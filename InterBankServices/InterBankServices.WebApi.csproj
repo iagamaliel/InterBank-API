@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="log4net" Version="2.0.14" />
+    <PackageReference Include="MediatR.Pipeline.Diagnostics" Version="0.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InterBankServices.Application\InterBankServices.Application.csproj" />
+    <ProjectReference Include="..\InterBankServices.Core\InterBankServices.Core.csproj" />
+    <ProjectReference Include="..\InterBankServices.Infrastructure\InterBankServices.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

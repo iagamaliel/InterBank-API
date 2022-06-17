@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "q8BzS6JRiaKN7bkJ0u8GmgR9C8QzFTHcNQiZ96r2A6Y=",
+  "Source": "InterBankServices.WebApi",
+  "BasePath": "_content/InterBankServices.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
