@@ -10,5 +10,7 @@ namespace InterBankServices.Core.Entities
     public class FinancialTypeResponse
     {
         public string description { get; set; }
+
+        public int id { get; set; }
     }
 }

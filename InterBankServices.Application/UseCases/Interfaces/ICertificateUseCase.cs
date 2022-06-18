@@ -1,5 +1,5 @@
-﻿using InterBankServices.Application.Features.Queries;
-using InterBankServices.Core;
+﻿using InterBankServices.Core;
+using InterBankServices.Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +10,11 @@ namespace InterBankServices.Application.UseCases.Interfaces
 {
     public interface ICertificateUseCase
     {
-        Task<ObjectResponse<CertificateResponse>> CreateCertificate(CreateCertificateQuery query);
+
+        Task<List<CertificateResponse>> ListCertificate();
+        Task<List<CertificateResponse>> ListCertificateId(int id);
+        Task<ObjectResponse<CertificateResponse>> CreateCertificate(CertificateResponse certificateResponse);
+
+        Task<bool>  ValidCertificate(string asfi_code, string serial_number);
     }
 }

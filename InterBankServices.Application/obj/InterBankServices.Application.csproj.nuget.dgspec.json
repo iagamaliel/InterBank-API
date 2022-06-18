@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Caleb\\Desktop\\BNB-16\\interbankapi\\InterBankServices.Application\\InterBankServices.Application.csproj": {}
+    "C:\\Users\\Caleb\\Desktop\\BNB\\interbankapi\\InterBankServices.Application\\InterBankServices.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Caleb\\Desktop\\BNB-16\\interbankapi\\InterBankServices.Application\\InterBankServices.Application.csproj": {
+    "C:\\Users\\Caleb\\Desktop\\BNB\\interbankapi\\InterBankServices.Application\\InterBankServices.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Caleb\\Desktop\\BNB-16\\interbankapi\\InterBankServices.Application\\InterBankServices.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Caleb\\Desktop\\BNB\\interbankapi\\InterBankServices.Application\\InterBankServices.Application.csproj",
         "projectName": "InterBankServices.Application",
-        "projectPath": "C:\\Users\\Caleb\\Desktop\\BNB-16\\interbankapi\\InterBankServices.Application\\InterBankServices.Application.csproj",
+        "projectPath": "C:\\Users\\Caleb\\Desktop\\BNB\\interbankapi\\InterBankServices.Application\\InterBankServices.Application.csproj",
         "packagesPath": "C:\\Users\\Caleb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Caleb\\Desktop\\BNB-16\\interbankapi\\InterBankServices.Application\\obj\\",
+        "outputPath": "C:\\Users\\Caleb\\Desktop\\BNB\\interbankapi\\InterBankServices.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Caleb\\Desktop\\BNB-16\\interbankapi\\InterBankServices.Core\\InterBankServices.Core.csproj": {
-                "projectPath": "C:\\Users\\Caleb\\Desktop\\BNB-16\\interbankapi\\InterBankServices.Core\\InterBankServices.Core.csproj"
+              "C:\\Users\\Caleb\\Desktop\\BNB\\interbankapi\\InterBankServices.Core\\InterBankServices.Core.csproj": {
+                "projectPath": "C:\\Users\\Caleb\\Desktop\\BNB\\interbankapi\\InterBankServices.Core\\InterBankServices.Core.csproj"
               }
             }
           }
@@ -88,14 +88,14 @@
         }
       }
     },
-    "C:\\Users\\Caleb\\Desktop\\BNB-16\\interbankapi\\InterBankServices.Core\\InterBankServices.Core.csproj": {
+    "C:\\Users\\Caleb\\Desktop\\BNB\\interbankapi\\InterBankServices.Core\\InterBankServices.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Caleb\\Desktop\\BNB-16\\interbankapi\\InterBankServices.Core\\InterBankServices.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Caleb\\Desktop\\BNB\\interbankapi\\InterBankServices.Core\\InterBankServices.Core.csproj",
         "projectName": "InterBankServices.Core",
-        "projectPath": "C:\\Users\\Caleb\\Desktop\\BNB-16\\interbankapi\\InterBankServices.Core\\InterBankServices.Core.csproj",
+        "projectPath": "C:\\Users\\Caleb\\Desktop\\BNB\\interbankapi\\InterBankServices.Core\\InterBankServices.Core.csproj",
         "packagesPath": "C:\\Users\\Caleb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Caleb\\Desktop\\BNB-16\\interbankapi\\InterBankServices.Core\\obj\\",
+        "outputPath": "C:\\Users\\Caleb\\Desktop\\BNB\\interbankapi\\InterBankServices.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

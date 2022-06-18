@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Caleb\\Desktop\\BNB-16\\interbankapi\\InterBankServices.Core\\InterBankServices.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Caleb\\Desktop\\BNB\\interbankapi\\InterBankServices.Core\\InterBankServices.Core.csproj",
       "projectName": "InterBankServices.Core",
-      "projectPath": "C:\\Users\\Caleb\\Desktop\\BNB-16\\interbankapi\\InterBankServices.Core\\InterBankServices.Core.csproj",
+      "projectPath": "C:\\Users\\Caleb\\Desktop\\BNB\\interbankapi\\InterBankServices.Core\\InterBankServices.Core.csproj",
       "packagesPath": "C:\\Users\\Caleb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Caleb\\Desktop\\BNB-16\\interbankapi\\InterBankServices.Core\\obj\\",
+      "outputPath": "C:\\Users\\Caleb\\Desktop\\BNB\\interbankapi\\InterBankServices.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4AFC3quzJUo+0JWH/VTOE5ghxNiHTEgQpGC0FVl0Zq22kblWVL+GGh/bYDINSL6/IxuwT9CLAQMQufghpAkBUA==",
+  "dgSpecHash": "ss5Ju+O6IGBe7ph45qVv1Sp1l3LY/xOuSkSemco3J5uKAcabzclUqS/mMFq23D4qxv3N62wKB+JzE0sMWP3PKw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Caleb\\Desktop\\BNB-16\\interbankapi\\InterBankServices.Core\\InterBankServices.Core.csproj",
+  "projectFilePath": "C:\\Users\\Caleb\\Desktop\\BNB\\interbankapi\\InterBankServices.Core\\InterBankServices.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

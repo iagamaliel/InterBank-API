@@ -1081,11 +1081,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Caleb\\Desktop\\BNB-16\\interbankapi\\InterBankServices.Infrastructure\\InterBankServices.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Caleb\\Desktop\\BNB\\interbankapi\\InterBankServices.Infrastructure\\InterBankServices.Infrastructure.csproj",
       "projectName": "InterBankServices.Infrastructure",
-      "projectPath": "C:\\Users\\Caleb\\Desktop\\BNB-16\\interbankapi\\InterBankServices.Infrastructure\\InterBankServices.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\Caleb\\Desktop\\BNB\\interbankapi\\InterBankServices.Infrastructure\\InterBankServices.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Caleb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Caleb\\Desktop\\BNB-16\\interbankapi\\InterBankServices.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\Caleb\\Desktop\\BNB\\interbankapi\\InterBankServices.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -1106,11 +1106,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Caleb\\Desktop\\BNB-16\\interbankapi\\InterBankServices.Application\\InterBankServices.Application.csproj": {
-              "projectPath": "C:\\Users\\Caleb\\Desktop\\BNB-16\\interbankapi\\InterBankServices.Application\\InterBankServices.Application.csproj"
+            "C:\\Users\\Caleb\\Desktop\\BNB\\interbankapi\\InterBankServices.Application\\InterBankServices.Application.csproj": {
+              "projectPath": "C:\\Users\\Caleb\\Desktop\\BNB\\interbankapi\\InterBankServices.Application\\InterBankServices.Application.csproj"
             },
-            "C:\\Users\\Caleb\\Desktop\\BNB-16\\interbankapi\\InterBankServices.Core\\InterBankServices.Core.csproj": {
-              "projectPath": "C:\\Users\\Caleb\\Desktop\\BNB-16\\interbankapi\\InterBankServices.Core\\InterBankServices.Core.csproj"
+            "C:\\Users\\Caleb\\Desktop\\BNB\\interbankapi\\InterBankServices.Core\\InterBankServices.Core.csproj": {
+              "projectPath": "C:\\Users\\Caleb\\Desktop\\BNB\\interbankapi\\InterBankServices.Core\\InterBankServices.Core.csproj"
             }
           }
         }

@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d6ce3414-8074-486e-8081-498c9966942d": {
+      "ProjectGuid": "d6ce3414-8074-486e-8081-498c9966942d",
+      "DisplayName": "InterBankServices.WebApi",
+      "ColorIndex": 0
+    },
+    "a89eb8c5-a9d8-4801-b1ef-dd762c5dd471": {
+      "ProjectGuid": "a89eb8c5-a9d8-4801-b1ef-dd762c5dd471",
+      "DisplayName": "InterBankServices.Infrastructure",
+      "ColorIndex": 1
+    },
+    "a0f036b9-bc0f-4600-a742-7ab9e6f44322": {
+      "ProjectGuid": "a0f036b9-bc0f-4600-a742-7ab9e6f44322",
+      "DisplayName": "InterBankServices.Application",
+      "ColorIndex": 2
+    },
+    "33054a80-4509-4fea-955d-818728c1fc80": {
+      "ProjectGuid": "33054a80-4509-4fea-955d-818728c1fc80",
+      "DisplayName": "InterBankServices.Core",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

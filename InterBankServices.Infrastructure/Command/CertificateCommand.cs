@@ -27,12 +27,15 @@ namespace InterBankServices.Infrastructure.Command
 
         public async Task<bool> CreateCertificateRequestCommand(CertificateRequestEntity command)
         {
-            string query = string.Format(@"INSERT INTO BNBInterbank.certificate.certificate (asfi_code, serial_number, created_date, validity_date, owner, certificate) 
+           
+                string query = string.Format(@"INSERT INTO BNBInterbank.certificate.certificate (asfi_code, serial_number, created_date, validity_date, owner, certificate) 
                                 VALUES (@asfi_code, @serial_number, @created_date, @validity_date, @owner, @certificate)");
 
-            using (var connection = new SqlConnection("connectionString"))
+            using (var connection = new SqlConnection(conStr))
             {
-                connection.Open();
+                try
+                {
+                    connection.Open();
                 using (var cmd = new SqlCommand(query, connection))
                 {
                     cmd.Parameters.AddWithValue("@asfi_code", command.asfi_code);
@@ -43,10 +46,24 @@ namespace InterBankServices.Infrastructure.Command
                     cmd.Parameters.AddWithValue("@certificate", command.certificate);
                     cmd.ExecuteNonQuery();
 
-                    return true;
+                    return true; 
 
                 }
+                }
+                catch (Exception e)
+                {
+                    return false;
+                }
+                finally
+                {
+                    // Close the connection
+                    if (connection != null)
+                    {
+                        connection.Close();
+                    }
+                }
             }
+        
         }
 
         #endregion

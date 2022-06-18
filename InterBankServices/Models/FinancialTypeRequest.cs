@@ -7,5 +7,7 @@ namespace InterBankServices.WebApi.Models
 
         [Required(ErrorMessage = "description is required")]
         public string description { get; set; }
+
+        public int id { get; set; }
     }
 }
